@@ -1,0 +1,28 @@
+/* globals.css */
+
+/* Import Racing Sans One from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+/* Tailwind’s base imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Racing Sans One custom class */
+.racing-sans-one-regular {
+  font-family: 'Racing Sans One', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+bg-multi-gradient {
+    background-image: linear-gradient(
+      to right,
+      #3B82F6, /* blue-500 */
+      #10B981, /* green-500 */
+      #F59E0B, /* yellow-500 */
+      #F97316, /* orange-500 */
+      #EF4444  /* red-500 */
+    );
+  }
